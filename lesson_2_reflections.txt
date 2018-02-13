@@ -25,3 +25,7 @@ Merge branches
 In order to add cod eof one branch to other merge command is used
 The merge feature automatically adds code of two branches using the latest commits and the common parent
 the new merge commits point to two prievious branch heads thus it has two parents 
+
+Merge conflicts
+Automatic merging doesn't always work.Sometimes it is too difficult for git to figure out which changes to keep or remove
+In such a case user can resolve conflicts .
