@@ -1,0 +1,10 @@
+What happens when you initialize a repo?
+It creates a hidden folder named .git which contains metadata of given repository
+There are no commits initially
+The branch is master
+git status shows that there are no commits to the repo
+
+staging area
+to commit the changes in diffrent files using diffrent commits staging area is used
+git add command is used to add changes to staging area
+when two files are changed at the same time but have diffrent logicall changes staging area can be useful
