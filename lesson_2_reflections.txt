@@ -12,3 +12,12 @@ when two files are changed at the same time but have diffrent logicall changes s
 when to use branches
 Precisely when you need to add a feature or make change which u think is not oficially part of project
 To keep the original version intact and experiment with it using diffrent branch
+
+how do diagram help to visualize branch structure
+Branch structure is like a tree
+each new commit is a new node
+this new node points to the previous commit 
+This refrence is used to create a git log
+Diagram can show what commits are present in  a given branch 
+also it can help identify unreachable nodes(commits)
+ 
