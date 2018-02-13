@@ -8,3 +8,7 @@ staging area
 to commit the changes in diffrent files using diffrent commits staging area is used
 git add command is used to add changes to staging area
 when two files are changed at the same time but have diffrent logicall changes staging area can be useful
+
+when to use branches
+Precisely when you need to add a feature or make change which u think is not oficially part of project
+To keep the original version intact and experiment with it using diffrent branch
