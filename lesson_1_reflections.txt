@@ -1,0 +1,33 @@
+using command diff
+diff -u game_old.js game_new.js
+the output contained added + and substracted - lines
+the changes made in old code were easily noticeable 
+
+1)The basic form of version control is manually saving files
+2)some softwares such as dropbox ,google docs save previous versions
+3)Dropbox saves it only for 30hrs
+4)wikipedia pages also have there previous versions saved
+
+desired properties for version control
+1)frequency of saving a version-It is often useful to save a version after a suitable logical change in code is made.git allows you to do so
+
+pros of manual commits in git 
+manual commit can diffrentiate between two commits logically
+also it is according to our prefrences
+
+cons of manual saving
+sometimes it is difficult to decide whether the change is criticall or not
+also due to human errors we might skip some commits
+
+Saving multiple files
+git is a development vcs so it facilitates multiple files changes as it is often the case that when we change a single function we ought to change function calls in another files
+google docs doesn't support it 
+
+Viewing history of files in git
+git log and git diff are two commands useful for viewing history 
+history can be very useful to revert to a older version 
+Also it is useful in finding bugs
+
+checkout command
+The command is used to revert to a previous version of a project
+Hence if you break something it doesn't matter as you need not go on undoing ur work
