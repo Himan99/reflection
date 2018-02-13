@@ -20,4 +20,8 @@ this new node points to the previous commit
 This refrence is used to create a git log
 Diagram can show what commits are present in  a given branch 
 also it can help identify unreachable nodes(commits)
- 
+
+Merge branches
+In order to add cod eof one branch to other merge command is used
+The merge feature automatically adds code of two branches using the latest commits and the common parent
+the new merge commits point to two prievious branch heads thus it has two parents 
